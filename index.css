@@ -341,3 +341,91 @@ iframe{
   text-align: center;
   font-size: 40px;
 }
+/* Responsive for phones */
+@media screen and (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 10px;
+  }
+  .nav-links ul {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .right-links {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* Logo resizing */
+  .logo img {
+    width: 100px;
+  }
+
+  /* Menu bar adjustments */
+  .menu-bar {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px 0;
+  }
+  .menu-item i {
+    font-size: 25px;
+  }
+  .menu-item span {
+    font-size: 0.9rem;
+  }
+
+  /* Search box adjustments */
+  .search-box input[type="text"] {
+    width: 90%;
+    font-size: 18px;
+  }
+  .search-box button {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  /* Table / products */
+  table {
+    border-spacing: 15px;
+  }
+  .div-item {
+    width: 100%;
+    padding: 5px;
+  }
+  .div-item img {
+    height: 200px;
+  }
+  .cake-name {
+    font-size: 16px;
+  }
+  .cake-name span {
+    font-size: 20px;
+  }
+  .div-button1 {
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  /* Section headings */
+  .text-p, .text-p1 {
+    font-size: 28px;
+  }
+
+  /* Map and QR adjustments */
+  .div-map {
+    width: 95%;
+    height: 300px;
+  }
+  .img-QR {
+    width: 90%;
+  }
+  .img-logo {
+    width: 150px;
+  }
+}
+
